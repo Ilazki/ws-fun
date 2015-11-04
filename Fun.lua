@@ -4,27 +4,28 @@
 ---                 Copyright (c) Ilazki. All rights reserved
 ---           Ported by Ilazki, original fun.lua lib by Roman Tsisyk
 ---
+---  `Lib:fun` is a port of Roman Tsisyk's Functional Lua library to Wildstar.
+---  It enables the use of many common functions found in functional programming
+---  languages within Wildstar addons, such as `map`, `filter`, and `reduce`.
 ---
----  Wrapper for lib:fun, a port of Roman Tsisyk's Functional Lua lib. Lib:fun
----  enables the use of many common functions found in  functional programming
----  languages within Wildstar addons, such as map, filter, and reduce.
----
----  This addon  is presented as  an alternative form  of access,  wrapping all
----  the functions into the Fun table  and making it globally accessible.  This
----  may be desirable  for use  with /eval,  the GeminiConsole in-game REPL, or
----  for early addon development with the lib.  This avoids needing to load the
----  lib manually in GeminiConsole,  which helps with in-game testing and early
----  development.  If  it  proves  useful  for  an addon,  lib:fun  can then be
----  included in the addon itself with minimal change to the code.
+---  `Fun` is a small wrapper addon that provides an alternate method of access
+---  by wrapping all the functions into the Fun table and making it globally
+---  accessible.  This may be desirable for use  with `/eval`, the GeminiConsole
+---  in-game REPL, or for early addon development that uses `lib:fun`.  This
+---  avoids needing to load the lib manually in GeminiConsole, which helps with
+---  in-game testing and early development.  If it proves useful for the addon,
+---  lib:fun can then be included in the addon itself with minimal change to the
+---  code.
 ---
 ---  This file is unnecessary when using lib:fun in an addon.  Instead, use the
 ---  included lib/luafun.lua file and the standard method of accessing your lib
 ---  by adding it to toc.xml and  `fun = Apollo.GetPackage("lib:fun").tPackage`
 ---  to your addon.
 ---
+---
 ---  VERSION         :  1.0
 ---  lib:fun Curse   :  N/A                          TODO: set up curse project
----  lib:fun Github  :  $URL
+---  lib:fun Github  :  https://github.com/Ilazki/ws-fun/
 ---  Luafun github   :  https://github.com/rtsisyk/luafun/
 ---  Luafun API docs :  https://rtsisyk.github.io/luafun/index.html
 ---
