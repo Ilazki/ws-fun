@@ -5,7 +5,7 @@
 ### Overview
   `Lib:fun` is a port of [Roman Tsisyk's Functional Lua](https://github.com/rtsisyk/luafun/) library to [Wildstar.](wildstar-online.com) It enables the use of many common functions found in functional programming languages within Wildstar addons, such as `map`, `filter`, and `reduce`.
 
-`Fun` is a small wrapper addon that provides an alternate method of access by wrapping all the functions into the Fun table and making it globally accessible.  This may be desirable for use  with `/eval`, the [GeminiConsole](https://github.com/wildstarnasa/GeminiConsole) in-game REPL, or for early addon development that uses `lib:fun`.  This avoids needing to load the lib manually in GeminiConsole, which helps with in-game testing and early development.  If it proves useful for the addon, lib:fun can then be included in the addon itself with minimal change to the code.
+`Fun` is a small wrapper addon that provides an alternate method of access by wrapping all the functions into the Fun table and making it globally accessible.  This may be desirable for use  with `/eval`, the [GeminiConsole](https://github.com/wildstarnasa/GeminiConsole) in-game REPL, or for early addon development that uses `lib:fun`.  This avoids needing to load the lib manually in GeminiConsole, which helps with in-game testing and early development.  If it proves useful for the addon, `lib:fun` can then be included in the addon itself with minimal change to the code.
 
 ### Links
 
