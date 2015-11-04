@@ -23,7 +23,7 @@
 ---  to your addon.
 ---
 ---  VERSION         :  1.0
----  lib:fun Curse   :  N/A
+---  lib:fun Curse   :  N/A                          TODO: set up curse project
 ---  lib:fun Github  :  $URL
 ---  Luafun github   :  https://github.com/rtsisyk/luafun/
 ---  Luafun API docs :  https://rtsisyk.github.io/luafun/index.html
