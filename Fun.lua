@@ -24,6 +24,7 @@
 ---
 ---
 ---  VERSION         :  1.0
+---  LICENSE         :  MIT/X11 (see COPYING.md)
 ---  lib:fun Curse   :  N/A                          TODO: set up curse project
 ---  lib:fun Github  :  https://github.com/Ilazki/ws-fun/
 ---  Luafun github   :  https://github.com/rtsisyk/luafun/
