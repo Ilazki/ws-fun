@@ -43,7 +43,7 @@ f = Fun.import({'head', 'tail'}) --- binding specific functions from Fun
 
  **[BEWARE]**  Doing this affects **all addons** and is a really bad idea.  It's only listed for completeness.  Seriously, don't do this, especially in release code.
 ```lua
-for k,v in pairs(Apollo.GetPackage("lib:fun").tPackage do _G[k] = v end
+for k,v in pairs(Apollo.GetPackage("lib:fun").tPackage) do _G[k] = v end
 each(Print, range(3))
 ```
 

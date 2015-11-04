@@ -54,7 +54,7 @@
 ---  Doing this affects ALL ADDONS and is a really bad idea.  It's only listed
 ---  for completeness.  Seriously, don't do this, especially in release code.
 ---
----    for k,v in pairs(Apollo.GetPackage("lib:fun").tPackage do _G[k] = v end
+---    for k,v in pairs(Apollo.GetPackage("lib:fun").tPackage) do _G[k] = v end
 ---    each(Print, range(3))
 ---
 -------------------------------------------------------------------------------
