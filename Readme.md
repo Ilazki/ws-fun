@@ -9,7 +9,7 @@
 
 ### Links
 
-<!-- **lib:fun** on Curse:  N/A<br> -->
+**lib:fun** on Curse:  http://www.curse.com/ws-addons/wildstar/237916-quest-tracker-tweaks<br>
 **lib:fun** on GitHub:  https://github.com/Ilazki/ws-fun/<br>
 **Luafun**  on GitHub:  https://github.com/rtsisyk/luafun/<br>
 **Luafun** API docs:  https://rtsisyk.github.io/luafun/index.html<br>
