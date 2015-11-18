@@ -74,8 +74,9 @@ function Fun:new(o)
   -- initialize variables here
   self.tSavedVariables = {}
 
-  -- Populate with luafun functions.
+  -- Populate with luafun and fun-extrafunctions.
   for k,v in pairs(Apollo.GetPackage("lib:fun").tPackage) do self[k] = v end
+  for k,v in pairs(Apollo.GetPackage("lib:fun-extra").tPackage) do self[k] = v end
 
   return o
 end
