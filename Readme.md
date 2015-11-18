@@ -7,6 +7,8 @@
 
 `Fun` is a small wrapper addon that provides an alternate method of access by wrapping all the functions into the Fun table and making it globally accessible.  This may be desirable for use  with `/eval`, the [GeminiConsole](https://github.com/wildstarnasa/GeminiConsole) in-game REPL, or for early addon development that uses `lib:fun`.  This avoids needing to load the lib manually in GeminiConsole, which helps with in-game testing and early development.  If it proves useful for the addon, `lib:fun` can then be included in the addon itself with minimal change to the code.
 
+There is also a second file, fun-extra, that provides my own constructs for other FP-esque things I miss.  Currently it just has two variations on `(cond)`:  `cond()` and `gen_cond()`
+
 ### Links
 
 **lib:fun** on Curse:  http://www.curse.com/ws-addons/wildstar/237916-quest-tracker-tweaks<br>
